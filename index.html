@@ -1,18 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Happy Birthday!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Dear Luna!</title>
 <style>
-body { background: #ffafbd; background: linear-gradient(to right, #ffc3a0, #ffafbd); text-align: center; font-family: 'Arial'; padding-top: 100px; }
-h1 { color: white; font-size: 60px; animation: bounce 2s infinite; }
-p { color: #333; font-size: 22px; }
-button { padding: 15px 30px; font-size: 20px; border: none; border-radius: 30px; background: white; color: #ff6a88; cursor: pointer; }
-@keyframes bounce { 0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 40% {transform: translateY(-30px);} 60% {transform: translateY(-15px);} }
+body { margin:0; font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%); min-height: 100vh; }
+.container { max-width: 650px; margin: 0 auto; padding: 20px; }
+.header { text-align: center; padding: 40px 20px; color: white; }
+.header h1 { font-size: 50px; margin:0; text-shadow: 2px 2px 10px rgba(0,0,0,0.2); }
+.header h2 { font-weight: 300; font-size: 28px; margin-top:10px; }
+.card { background: white; border-radius: 25px; padding: 20px; margin-bottom: 25px; box-shadow: 0 15px 35px rgba(0,0,0,0.15); overflow:hidden; animation: fadeIn 1s; }
+.card img { width: 100%; border-radius: 18px; }
+.card .wish { padding: 15px; font-size: 18px; line-height: 1.6; color: #444; }
+.card .wish b { color: #ff6a88; font-size: 20px; }
+.footer { text-align:center; color:white; padding: 30px; font-size:18px; }
+@keyframes fadeIn { from {opacity:0; transform:translateY(20px);} to {opacity:1; transform:translateY(0);} }
 </style>
 </head>
 <body>
-<h1>🎂 Happy Birthday! 🎉</h1>
-<p>Wishing you a day filled with love, happiness and cake!</p>
-<button onclick="alert('Many Many Happy Returns of the Day! 🎁')">Click Me ❤️</button>
+<div class="container">
+    <div class="header">
+        <h1>🎂 Happy Birthday 🎂</h1>
+        <h2>Dear Luna! ✨</h2>
+    </div>
+
+    <div class="card">
+        <img src="pic1.jpg">
+        <div class="wish"><b>Wish 1:</b> Dear Luna, on your special day I wish you endless happiness and all your dreams come true! Stay as beautiful as you are! 💖</div>
+    </div>
+
+    <div class="card">
+        <img src="pic2.jpg">
+        <div class="wish"><b>Wish 2:</b> May this year bring you success, love, and lots of amazing memories. You deserve the best! 🌊</div>
+    </div>
+
+    <div class="card">
+        <img src="pic3.jpg">
+        <div class="wish"><b>Wish 3:</b> Your smile is my favorite! Keep smiling always, Luna! 😊</div>
+    </div>
+
+    <div class="card">
+        <img src="pic4.jpg">
+        <div class="wish"><b>Wish 4:</b> You are such a cool and amazing person. Wishing you a day filled with fun and laughter! 🎉</div>
+    </div>
+
+    <div class="card">
+        <img src="pic5.jpg">
+        <div class="wish"><b>Wish 5:</b> Happy Birthday again, Dear Luna! Celebrating you today and always. Have the most wonderful year! 🥳</div>
+    </div>
+
+    <div class="footer">
+        Made with ❤️ for Dear Luna<br>
+        - Celebrate - Smile - Shine - Love -
+    </div>
+</div>
 </body>
 </html>
